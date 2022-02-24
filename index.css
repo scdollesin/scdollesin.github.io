@@ -1,0 +1,48 @@
+html{
+	background-color: #FF9999;
+	margin:0px;
+	padding: 25px;
+	padding-top: 40px;
+}
+
+#board{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	grid-gap: 30px;
+}
+
+#left {
+	background-color: #FFC2C2;
+	border-radius: 25px;
+	padding: 30px;
+	padding-top: 35px;
+	font-family: 'Lilita One', cursive;
+	text-align: center;
+}
+
+#samantha{
+	margin-top: 40px;
+	margin-bottom: 0px;
+	font-size: 40px;
+	color:white;
+}
+
+#profile{
+	margin: 0px;
+	font-size: 65px;		
+	color: #FFE1E1;
+}
+
+#right {
+	background-color: white;
+	border-radius: 25px;
+	padding: 80px;
+	padding-top: 150px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #767171;
+}
+
+span{
+	color: #FF7C80;
+}
